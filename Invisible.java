@@ -9,7 +9,7 @@ public class Invisible extends Frame
 	{
 		setSize(500,500);
 		addWindowListener(new WindowAdapter()
-		{ public void windowCLosing(windowEvent event) {System.exit(0); }});}
+		{ public void windowClosing(WindowEvent event) {System.exit(0); }});}
 		
 		public void paint(Graphics g)
 		{
